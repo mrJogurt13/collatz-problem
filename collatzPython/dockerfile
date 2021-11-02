@@ -1,0 +1,7 @@
+FROM python:latest
+
+LABEL Maintainer="mr.jogurt"
+
+WORKDIR /etc
+
+CMD ["python", "./collatz.py"]
