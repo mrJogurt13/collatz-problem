@@ -4,4 +4,6 @@ LABEL Maintainer="mr.jogurt"
 
 WORKDIR /etc
 
+COPY collatz.py ./
+
 CMD ["python", "./collatz.py"]
